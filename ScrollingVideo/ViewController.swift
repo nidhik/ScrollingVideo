@@ -7,13 +7,14 @@
 
 import UIKit
 import AsyncDisplayKit
+import MUXSDKStats
 
 
 class ViewController: UIViewController, UIScrollViewDelegate {
     
     var tableNode: ASTableNode!
     var videoURLs : [String] = []
-    var lastNode: VideoNode?
+    var lastNode: VideoCellNode?
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
@@ -26,8 +27,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         super.viewDidLoad()
         self.view.insertSubview(tableNode.view, at: 0)
         self.applyStyle()
-        self.tableNode.leadingScreensForBatching = 1.0;  // overriding default of 2.0
-        
+        self.tableNode.leadingScreensForBatching = 1.0;  // overriding default of 2.0        
     }
     
     override func viewWillLayoutSubviews() {
@@ -55,7 +55,7 @@ extension ViewController: ASTableDataSource {
     func tableNode(_: ASTableNode, nodeBlockForRowAt indexPath: IndexPath) -> ASCellNodeBlock {
         let url = videoURLs[indexPath.row]
         return {
-            let node = VideoNode(with: URL(string: url)!)
+            let node = VideoCellNode(with: URL(string: url)!, playerName: "fix me")
             return node
         }
     }

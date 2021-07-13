@@ -1,4 +1,7 @@
 PODS:
+  - Mux-Stats-AVPlayer (2.4.0):
+    - Mux-Stats-Core (~> 3.3)
+  - Mux-Stats-Core (3.3.0)
   - PINCache (3.0.3):
     - PINCache/Arc-exception-safe (= 3.0.3)
     - PINCache/Core (= 3.0.3)
@@ -36,21 +39,26 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
+  - Mux-Stats-AVPlayer
   - Texture
 
 SPEC REPOS:
   trunk:
+    - Mux-Stats-AVPlayer
+    - Mux-Stats-Core
     - PINCache
     - PINOperation
     - PINRemoteImage
     - Texture
 
 SPEC CHECKSUMS:
+  Mux-Stats-AVPlayer: 019600633dcd23936e4001632d5321779d7491dd
+  Mux-Stats-Core: edd64a5cf21858bb5ea7b860ee35eb07c3e417ba
   PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
   PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
   PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
   Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
 
-PODFILE CHECKSUM: 62abcd43441bcd04a937e262bcf5aa31964f034a
+PODFILE CHECKSUM: 394d300d750552bbb65c8a9b5c8b8ee897a8534a
 
 COCOAPODS: 1.10.1

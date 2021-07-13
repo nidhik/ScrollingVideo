@@ -7,6 +7,7 @@ target 'ScrollingVideo' do
 
   # Pods for ScrollingVideo
   pod "Texture"
+  pod 'Mux-Stats-AVPlayer'
   target 'ScrollingVideoTests' do
     inherit! :search_paths
     # Pods for testing
