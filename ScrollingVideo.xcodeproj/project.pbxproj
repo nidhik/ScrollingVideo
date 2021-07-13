@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		0241F8BF269D323B0085A4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0241F8BD269D323B0085A4E4 /* LaunchScreen.storyboard */; };
 		0241F8CA269D323B0085A4E4 /* ScrollingVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0241F8C9269D323B0085A4E4 /* ScrollingVideoTests.swift */; };
 		0241F8D5269D323B0085A4E4 /* ScrollingVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0241F8D4269D323B0085A4E4 /* ScrollingVideoUITests.swift */; };
+		0241F8F3269D3B4F0085A4E4 /* VideoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0241F8F2269D3B4F0085A4E4 /* VideoNode.swift */; };
 		47B07936DA9FEFE010A92456 /* Pods_ScrollingVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB7122ED59E9287BCAE11C8D /* Pods_ScrollingVideoTests.framework */; };
 		7D692CC01216D4E02DAB8C05 /* Pods_ScrollingVideo_ScrollingVideoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01340BD4223997446BAD78BA /* Pods_ScrollingVideo_ScrollingVideoUITests.framework */; };
 		EA7321054B7C2F6D25A4F900 /* Pods_ScrollingVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28561F5ADC975EC1AA8F267 /* Pods_ScrollingVideo.framework */; };
@@ -53,6 +54,7 @@
 		0241F8D0269D323B0085A4E4 /* ScrollingVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollingVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0241F8D4269D323B0085A4E4 /* ScrollingVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingVideoUITests.swift; sourceTree = "<group>"; };
 		0241F8D6269D323B0085A4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0241F8F2269D3B4F0085A4E4 /* VideoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoNode.swift; sourceTree = "<group>"; };
 		12402F0905AE72801B1FA797 /* Pods-ScrollingVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingVideoTests.release.xcconfig"; path = "Target Support Files/Pods-ScrollingVideoTests/Pods-ScrollingVideoTests.release.xcconfig"; sourceTree = "<group>"; };
 		189708DB198116067D61051D /* Pods-ScrollingVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingVideo.release.xcconfig"; path = "Target Support Files/Pods-ScrollingVideo/Pods-ScrollingVideo.release.xcconfig"; sourceTree = "<group>"; };
 		2F76A36A4A4ADFC08B90C6EC /* Pods-ScrollingVideo-ScrollingVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollingVideo-ScrollingVideoUITests.debug.xcconfig"; path = "Target Support Files/Pods-ScrollingVideo-ScrollingVideoUITests/Pods-ScrollingVideo-ScrollingVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				0241F8BB269D323B0085A4E4 /* Assets.xcassets */,
 				0241F8BD269D323B0085A4E4 /* LaunchScreen.storyboard */,
 				0241F8C0269D323B0085A4E4 /* Info.plist */,
+				0241F8F2269D3B4F0085A4E4 /* VideoNode.swift */,
 			);
 			path = ScrollingVideo;
 			sourceTree = "<group>";
@@ -165,7 +168,6 @@
 				8F18AF930F01B8E0A43E01F5 /* Pods-ScrollingVideoTests.debug.xcconfig */,
 				12402F0905AE72801B1FA797 /* Pods-ScrollingVideoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -410,6 +412,7 @@
 				0241F8B7269D32390085A4E4 /* ViewController.swift in Sources */,
 				0241F8B3269D32390085A4E4 /* AppDelegate.swift in Sources */,
 				0241F8B5269D32390085A4E4 /* SceneDelegate.swift in Sources */,
+				0241F8F3269D3B4F0085A4E4 /* VideoNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
