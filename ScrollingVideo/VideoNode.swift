@@ -46,7 +46,7 @@ extension VideoCellNode: ASVideoNodeDelegate {
             DispatchQueue.main.async {
                 // initialize the Mux SDK
                 self.playerName = UUID().uuidString
-                let playerData = MUXSDKCustomerPlayerData(environmentKey: "YOUR_ENV_KEY_HERE);
+                let playerData = MUXSDKCustomerPlayerData(environmentKey: "YOUR_ENV_KEY_HERE");
                 // insert player metadata
                 let videoData = MUXSDKCustomerVideoData();
                 // insert video metadata
