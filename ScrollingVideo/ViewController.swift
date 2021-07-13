@@ -65,8 +65,8 @@ extension ViewController: ASTableDataSource {
 extension ViewController: ASTableDelegate {
     func tableNode(_: ASTableNode, constrainedSizeForRowAt _: IndexPath) -> ASSizeRange {
         let width = UIScreen.main.bounds.size.width
-        let min = CGSize(width: width, height: (UIScreen.main.bounds.size.height / 3) * 2)
-        let max = CGSize(width: width, height: .infinity)
+        let min = CGSize(width: width, height: (UIScreen.main.bounds.size.height / 3))
+        let max = CGSize(width: width, height: (UIScreen.main.bounds.size.height / 2))
         return ASSizeRangeMake(min, max)
     }
 }
